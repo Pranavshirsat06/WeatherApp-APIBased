@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins";
+  color: #000;
+  background-color: rgb(183, 213, 236);
+}
+.container {
+  width: 26%;
+}
+.card {
+  height: 380px;
+  border-radius: 50px;
+  background-color: rgb(236, 242, 236);
+  box-shadow: 5px 5px 10px #191b1b, -5px -5px 10px #595959;
+  padding: 3%;
+  text-align: center;
+  color: rgb(49, 47, 47);
+}
+.card h4 {
+  font-size: 4rem;
+  font-weight: 400;
+  margin: 1rem 0;
+}
+#location {
+  margin-right: 1rem;
+}
+img #icon {
+  width: 20%;
+}
+h5 #Weather {
+  text-transform: capitalize;
+  font-size: 3rem;
+}
+.refresh {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: burlywood;
+  cursor: pointer;
+  margin: 10px auto;
+  display: block;
+  border: 0;
+  box-shadow: 1px 4px 10px #5d5c5c, 5px 5px 12px #4a4a4a;
+}
+
+button.refresh:hover {
+  box-shadow: inset 10px 4pc 10pc burlywood;
+}
